@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(56, 141, 190);
+    margin: 5px;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+.b1{
+    display: flex;
+}
+.b2{
+    display: flex;
+    justify-content: center;
+}
+.b3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
+}
+.b5{
+    display: flex;
+    justify-content: space-between;
+}
+.b6{
+    display: flex;
+    justify-content: space-around;
+}
+.b7{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.b8{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+.b9{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+.b10{
+    display: flex;
+    flex-direction: column;
+}
+.b11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.b13{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: end;
+}
+.b14{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.b15{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.b16{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.b17{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.b18{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.b19{
+    display: flex;
+    justify-content: center;
+}
+.flex-start{
+    align-self: flex-start;
+}
+.center{
+    align-self: center;
+}
+.flex-end{
+    align-self: flex-end;
+}
+.b20{
+    display: flex;
+    justify-content: center;
+}
